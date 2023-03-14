@@ -89,7 +89,6 @@ sendEl.addEventListener("click", (e) => {
 	checkPassword(passwordEl, password2El);
 	checkMail(emailEl);
 
-	allFormBoxes.forEach((el) => {});
 
 	checkErrors();
 });
